@@ -1,0 +1,43 @@
+.Burger{
+    height:500px; 
+    width:30%; 
+    margin: auto; 
+    overflow-y:scroll;
+    overflow-x:none;
+    display: inline-block;    
+}
+
+@media (max-width: 1400px){
+    .Burger{
+        height:400px; 
+        width:40%;
+    }
+}
+
+@media (max-width: 1000px){
+    .Burger{
+        height:400px; 
+        width:40%;
+    }
+}
+
+@media (max-width: 800px){
+    .Burger{
+        height:300px; 
+        width:35%;
+    }
+}
+
+@media (max-width: 700px){
+    .Burger{
+        height:300px; 
+        width:50%;
+    }
+}
+
+@media (max-width: 550px){
+    .Burger{
+        display: block;
+    }
+}
+
