@@ -1,6 +1,6 @@
 import React from 'react';
 import { ingredientBuilder as BurgerIngredient, INGREDIANTS } from './ingrediants/Ingrediants';
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/CompAux';
 import classes from './Burger.css';
 
 const burger = (props) => {
